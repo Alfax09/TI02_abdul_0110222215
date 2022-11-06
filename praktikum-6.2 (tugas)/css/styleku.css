@@ -1,0 +1,94 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f8c8;
+}
+#header {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #0f035f;
+    color: #e3c500;
+    height: 100px;
+}
+blockquote{
+    background-color: #e3c500;
+    margin: 20px auto 20px auto ;
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+    color: #0f035f;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin: 10px 0px 20px 0px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+.gambar{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gambar1{
+    height: 300px;
+    padding: 0px  9px;
+}
+.isi{
+    padding: 10px 70px ;
+    font-size: 20px;
+    text-align: justify;
+    color: #0f035f;
+}
+.p1::first-letter {
+    font-size: xxx-large;
+ }
+#profil{
+    padding: 10px 70px ;
+    font-size: 20px;
+    text-align: justify;
+    color: #0f035f;
+}
+.ul2{
+    padding-left: 30px;
+}
+#profil{
+    padding: 10px 70px ;
+    font-size: 20px;
+    text-align: justify;
+    color: #0f035f;
+}
+.koleksi{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+.imgcol{
+    height: 250px;
+    padding: 10px;
+}
+.promo{
+    background-color: #0f035f;
+    text-align: center;
+    color: #e3c500;
+    padding: 30px;
+}
+.h3promo{
+    margin: 20px auto;
+    color: rgb(255, 0, 0);
+}
+.olmedsos{
+    color: #e3c500;
+    line-height: 25px;
+    list-style-type: none;
+    background-color: #e3c500;
+    margin: 10px auto 10px auto ;
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+}
