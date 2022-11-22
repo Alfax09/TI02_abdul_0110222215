@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+#main article {
+    flex: 1;
+    order: 1;
+}
+
+#main nav,
+#main aside {
+    flex: 0 0 20vw;
+}
+
+#main nav {
+    background: #13725d;
+    order: 3;
+}
+
+#main aside {
+    background: #199d81;
+    order: 2;
+}
+
+#main article {
+    background: #1ec29e;
+    order: 2;
+}
+
+header, footer {
+    background: #ffe100;
+    order: 20vh;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+

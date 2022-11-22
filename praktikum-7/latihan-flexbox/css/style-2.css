@@ -1,0 +1,12 @@
+.koleksi {
+  background-color: lightyellow;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  }
+
+.koleksi img {
+  height: 200px;
+  }
