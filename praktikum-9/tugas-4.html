@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Javascript 4</title>
+</head>
+<body>
+    <h2>Menghitung Jumlah Dua Bilangan</h2>
+    <form>
+        <input type="text" id="pertama" onchange="hitung()">
+        <p>+</p>
+        <input type="text" id="kedua" onchange="hitung()">
+        <br>
+        <p>=</p>
+        <input type="text" id="hasil" onchange="hitung()">
+    </form>
+    <script>
+        function hitung(){
+            let bilangan_pertama = document.getElementById("pertama").value
+            let bilangan_kedua = document.getElementById("kedua").value
+            let total = parseInt(bilangan_pertama) + parseInt(bilangan_kedua)
+            document.getElementById("hasil").value = total
+        }
+    </script>
+</body>
+</html>
